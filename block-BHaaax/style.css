@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*custom*/
+
+
+.header{
+    background-color: rgb(77, 77, 238);
+    padding: 40px;
+   border-radius: 20px;
+   margin: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.first{
+    width: 45%;
+    text-align: left;
+    display: inline-block;
+    text-transform: uppercase;
+    color: rgb(250, 81, 250);
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.second{
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+}
+.column1{
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+}
+.column2{
+    display: inline-block;
+    width: 45%;
+margin: 10px;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(25, 50, 196);
+    margin-bottom: 100px;
+}
+p{
+    font-size: large;
+}
+footer{
+    background-color: rgb(77, 77, 238);
+    padding: 40px;
+   border-radius: 20px;
+   margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
