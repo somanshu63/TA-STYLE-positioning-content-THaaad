@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*custom*/
+body{
+    font-family: 'Petrona', serif;
+}
+.container{
+    width: 1100px;
+    text-align: center;
+    margin: 0 70px;
+    padding: 50px 30px 0 30px;
+}
+/*header*/
+.header{
+    background-color: #5385c1;
+    height: 300px;
+    color: white;
+}
+.header h2{
+    float: left;
+}
+.header nav{
+    float: right;
+    
+}
+.headp{
+    color: white;
+}
+.header a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.header h1{
+    font-size: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 90px auto 10px auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    margin-right: 20px;
+}
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+/*main*/
+/*section-1*/
+.section1{
+    background-color: white;
+    height: 350px;
+}
+.col{
+    float: left;
+    margin: 30px 45px;
+    width: 25%;
+    height: 300px;
+    text-align: left;
+}
+.col h3{
+    color: #5385c1;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.colp{
+    margin-bottom: 30px;
+    color: grey;
+}
+.col a{
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    background-color: #5385c1;
+    padding: 10px 20px;
+}
+/*section-2*/
+.section2{
+    height: 700px;
+    width: 100%;
+    background-color: #5385c1;
+}
+.heading{
+    color: white;
+    text-align: center;
+}
+.heading h4{
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.sec2p{
+    margin-bottom: 40px;
+    color: white;
+}
+.col2{
+    margin-top: 60px;
+    float: left;
+    width: 20%;
+    height: 350px;
+    margin: 2%;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+.col2 img{
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.name{
+    font-size: x-large;
+    margin-top: 20px;
+    color: white;
+}
+.data{
+    margin-top: 10px;
+    color: white;
+}
+/*section-3*/
+h5{
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: #5385c1;
+}
+p{
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.col3{
+    float: left;
+    width: 45%;
+    height: 400px;
+    margin: 2%;
+    text-align: left;
+}
+.col3 img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.col3 h6{
+    color: #5385c1;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+.col3 p{
+    color: grey;
+    margin-bottom: 30px;
+}
+.col3 a{
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    background-color: #5385c1;
+    padding: 10px 20px;
+}
+.footp{
+    float: left;
+    color: grey;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer nav{
+    margin-top: 20px;
+    float: right;
+    margin-left: 10px;
+    color: #5385c1;
+}
+.footer a{
+    text-decoration: none;
+    color: #5385c1;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
